@@ -1,0 +1,15 @@
+linters-settings:
+  gocyclo:
+    min-complexity: 10
+  errcheck:
+    check-type-assertions: true
+    check-blank: true
+linters:
+  disable-all: true
+  enable:
+    - gofmt
+    - govet
+    - gocyclo
+    - errcheck
+    - staticcheck
+    - unused
